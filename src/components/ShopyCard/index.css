@@ -1,0 +1,112 @@
+.btn-popular {
+  background-image: linear-gradient(to right, #51ede0, #75fa3c);
+  border-radius: 12px;
+  font-size: 12px;
+  border-width: 0px;
+  line-height: 1.5;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.card-container {
+  width: 260px;
+  height: 460px;
+  position: relative;
+  border: 1px solid #51ede0;
+  margin-left: 50px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inr-mo {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #000000;
+  margin-left: 5px;
+}
+
+.icon {
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.note-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8f4f8;
+  width: 100%;
+  line-height: 1;
+  text-align: center;
+}
+
+.correct-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-element {
+  width: 30px;
+  height: 30px;
+}
+
+.basic {
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #000000;
+}
+
+.big-description {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #000000;
+}
+
+.description {
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #323233;
+}
+
+.correct-icon {
+  width: 17px;
+  height: 17px;
+}
+
+.correct-description {
+  margin-left: 8px;
+}
+
+.try-for-free {
+  background-color: #000000;
+  line-height: 2;
+  width: 80%;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 6px;
+  margin-left: 25px;
+}
+
+.structure-container {
+  margin-left: 14px;
+}
+
+@media (max-width: 767px) {
+  .card-container {
+    width: 100%;
+    height: 100%;
+  }
+}
